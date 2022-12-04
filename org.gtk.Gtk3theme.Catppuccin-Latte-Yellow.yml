@@ -18,8 +18,8 @@ modules:
       - appstream-compose --basename=org.gtk.Gtk3theme.Catppuccin-Latte-Yellow --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Catppuccin-Latte-Yellow
     sources:
       - type: file
-        url: https://github.com/catppuccin/gtk/releases/download/v-0.2.7/Catppuccin-Latte-Yellow.zip
+        url: https://github.com/catppuccin/gtk/releases/download/v0.3.0/Catppuccin-Latte-Yellow.zip
         dest-filename: "theme.zip"
-        sha256: 122117d76fa4666a0f24edd7afdb703a8a7e2d62df6497f6ee744b9f26835639
+        sha256: d097df5fedba133d347dcae87b51b8111ac2e0fd39aede38bcd6f68b18391561
       - type: file
         path: org.gtk.Gtk3theme.Catppuccin-Latte-Yellow.appdata.xml
